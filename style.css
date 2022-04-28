@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.sideNav {
+    /* border: 1px solid black; */
+    background-color: darkblue;
+    width: 5%;
+    height: 100%;
+}
+
+.graphArea {
+    /* border: 1px solid black; */
+    background-color: lightblue;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.y-axis-number {
+    height: 80%;
+    width: 2%;
+    justify-content: flex-end;
+    /* border: 1px solid black; */
+}
+
+.graph {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    border: 1px solid black;
+    align-items: flex-end;
+    /* justify-content: start; */
+}
+
+.bar {
+    width: 2%;
+    background-color: darkblue;
+    /* height: 10%; */
+    margin: 0px 2px;
+}
