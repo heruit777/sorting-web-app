@@ -41,12 +41,12 @@
     display: flex;
     border: 1px solid black;
     align-items: flex-end;
-    /* justify-content: start; */
+    justify-content: center;
 }
 
 .bar {
-    width: 2%;
+    width: 20%;
     background-color: darkblue;
     /* height: 10%; */
-    margin: 0px 2px;
+    margin: 0px 10px;
 }
